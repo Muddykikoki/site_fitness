@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPro - Seu Personal Trainer Digital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-spinner">
+            <div class="spinner-circle"></div>
+            <div class="spinner-circle"></div>
+            <div class="spinner-circle"></div>
+            <div class="spinner-circle"></div>
+        </div>
+        <p class="loading-text">Preparando sua experiência fitness...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo animate__animated animate__fadeInDown">
+                <img src="images/logo.svg" alt="FitPro Logo">
+                <span>FitPro</span>
+            </a>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#features" class="nav-link">Recursos</a></li>
+                    <li><a href="#download" class="nav-link">Download</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate__animated animate__fadeInLeft">
+                <h1>Transforme seu corpo, <span class="highlight">mude sua vida</span></h1>
+                <p>O personal trainer digital que se adapta ao seu ritmo e te ajuda a alcançar seus objetivos fitness.</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary pulse">Comece agora</a>
+                    <a href="#features" class="btn btn-secondary">Saiba mais</a>
+                </div>
+                <div class="app-stats">
+                    <div class="stat">
+                        <span class="counter" data-target="500000">0</span>+
+                        <p>Usuários ativos</p>
+                    </div>
+                    <div class="stat">
+                        <span class="counter" data-target="98">0</span>%
+                        <p>Satisfação</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate__animated animate__fadeInRight">
+                <img src="images/hero-app.png" alt="FitPro App Interface" class="floating">
+                <div class="circle-decoration"></div>
+                <div class="circle-decoration small"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title animate__animated">Seu <span class="highlight">treino perfeito</span> em qualquer lugar</h2>
+            <p class="section-subtitle animate__animated">Descubra como o FitPro pode revolucionar sua rotina fitness</p>
+            
+            <div class="features-grid">
+                <div class="feature-card animate__animated">
+                    <div class="card-icon">
+                        <img src="images/features/tracking.svg" alt="Tracking Icon">
+                    </div>
+                    <h3>Acompanhamento Inteligente</h3>
+                    <p>Monitoramento em tempo real do seu progresso com análise de dados para otimizar seus resultados.</p>
+                    <a href="#" class="card-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="feature-card animate__animated">
+                    <div class="card-icon">
+                        <img src="images/features/nutrition.svg" alt="Nutrition Icon">
+                    </div>
+                    <h3>Nutrição Personalizada</h3>
+                    <p>Planos alimentares adaptados ao seu metabolismo e objetivos, com receitas fáceis e deliciosas.</p>
+                    <a href="#" class="card-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="feature-card animate__animated">
+                    <div class="card-icon">
+                        <img src="images/features/community.svg" alt="Community Icon">
+                    </div>
+                    <h3>Comunidade Motivadora</h3>
+                    <p>Conecte-se com outros usuários, compartilhe conquistas e participe de desafios semanais.</p>
+                    <a href="#" class="card-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content animate__animated">
+                <h2 class="section-title">Pronto para <span class="highlight">transformar</span> seu corpo?</h2>
+                <p>Disponível para iOS e Android. Baixe agora e comece sua jornada fitness hoje mesmo!</p>
+                
+                <div class="download-buttons">
+                    <a href="#" class="download-btn">
+                        <i class="fab fa-apple"></i>
+                        <div class="download-text">
+                            <span>Disponível na</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                    <a href="#" class="download-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div class="download-text">
+                            <span>Disponível no</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="download-image animate__animated">
+                <img src="images/hero-app.png" alt="Download FitPro">
+                <div class="floating-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="contact" class="newsletter">
+        <div class="container">
+            <div class="newsletter-content animate__animated">
+                <h2>Receba dicas exclusivas</h2>
+                <p>Assine nossa newsletter e receba conteúdo premium sobre fitness, nutrição e bem-estar diretamente no seu e-mail.</p>
+                
+                <form id="newsletter-form" class="newsletter-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Assinar <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="images/logo.svg" alt="FitPro Logo">
+                        <span>FitPro</span>
+                    </a>
+                    <p>Transformando vidas através da tecnologia fitness.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#features">Recursos</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contato@fitpro.com</li>
+                        <li><i class="fas fa-phone"></i> (11) 98765-4321</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 FitPro. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/loading.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
